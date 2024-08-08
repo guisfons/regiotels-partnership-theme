@@ -30,10 +30,10 @@
     <section class="copyright">
         <p>© RegiÔtels 2017 — 2024 | All rights reserved | This site is protected by reCAPTCHA and the Google Terms of Service and Privacy Policy.</p>
         <p>
-            <a href="" target="_blank">Data Policy</a>
-            <a href="" target="_blank">GDPR Compliance</a>
-            <a href="" target="_blank">Privacy Policy</a>
-            <a href="" target="_blank">Impressum</a>
+            <a href="https://www.regiotels.com/data-policy" target="_blank">Data Policy</a>
+            <a href="https://www.regiotels.com/wp-content/uploads/2022/12/RegiOtels-GDPR-Compliance.pdf" target="_blank">GDPR Compliance</a>
+            <a href="https://www.regiotels.com/privacy-policy" target="_blank">Privacy Policy</a>
+            <a href="https://www.regiotels.com/impressum" target="_blank">Impressum</a>
         </p>
     </section>
 </footer>
