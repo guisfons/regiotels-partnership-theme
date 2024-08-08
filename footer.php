@@ -1,3 +1,4 @@
+<?php wp_footer(); ?>
 <footer>
     <section class="offices">
         <div class="offices__wrapper">
@@ -35,6 +36,5 @@
         </p>
     </section>
 </footer>
-<?php wp_footer(); ?>
 </body>
 </html>
