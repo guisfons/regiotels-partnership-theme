@@ -28,7 +28,7 @@
 <body <?php body_class($post->post_name ?? ''); ?>>
     <header class="header">
         <div class="wrapper">
-            <figure class="header__logo"><img src="./assets/img/logo.webp" alt="RegiÔtels logo"></figure>
+            <figure class="header__logo"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo.webp" alt="RegiÔtels logo"></figure>
             <a href="#contact">Talk to a consultant</a>
         </div>
     </header>
