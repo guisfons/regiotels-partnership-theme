@@ -32,4 +32,3 @@
             <a href="#contact">Talk to a consultant</a>
         </div>
     </header>
-	<main>
