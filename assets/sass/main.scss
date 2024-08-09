@@ -667,7 +667,7 @@ p {
         text-align: center;
     }
 
-    .wpcf7, form{
+    form, .wpcf7 {
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -685,7 +685,7 @@ p {
             width: 100%;
         }
 
-        button {
+        button, input[type="submit"] {
             @include btn;
             max-width: 12rem;
             cursor: pointer;
