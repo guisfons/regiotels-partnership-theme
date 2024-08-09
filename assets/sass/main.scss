@@ -667,7 +667,7 @@ p {
         text-align: center;
     }
 
-    form, .wpcf7 {
+    .wpcf7, form {
         display: flex;
         flex-direction: column;
         gap: 2rem;
