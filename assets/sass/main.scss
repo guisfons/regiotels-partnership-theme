@@ -667,17 +667,22 @@ p {
         text-align: center;
     }
 
-    form {
+    form, & > .wpcf7 {
         display: flex;
         flex-direction: column;
         gap: 2rem;
         max-width: 53.4rem;
         width: 100%;
 
+        p {
+            width: 100%;
+        }
+
         input {
             padding: 1.5rem;
             border: .1rem solid $gray;
             font-size: 1.5rem;
+            width: 100%;
         }
 
         button {
