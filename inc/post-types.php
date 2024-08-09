@@ -181,7 +181,7 @@ function ks_register_post_types(){
 
 }
 
-add_action('init', 'ks_register_post_types', 10 );
+// add_action('init', 'ks_register_post_types', 10 );
 
 /**
  * Change Native Posts labels
@@ -197,7 +197,7 @@ function ks_change_post_label() {
 
 }
 
-add_action( 'admin_menu', 'ks_change_post_label' );
+// add_action( 'admin_menu', 'ks_change_post_label' );
 
 function ks_change_post_object() {
 
@@ -221,4 +221,4 @@ function ks_change_post_object() {
 
 }
 
-add_action( 'init', 'ks_change_post_object' );
+// add_action( 'init', 'ks_change_post_object' );
