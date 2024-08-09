@@ -22,7 +22,7 @@ function themeFiles() {
     wp_register_script('javascript', get_stylesheet_directory_uri() . '/assets/js/main.js', array(), ASSETS_VERSION, true);
     wp_enqueue_script('javascript');
 
-    enqueueTargetAssets(getTargetType());
+    // enqueueTargetAssets(getTargetType());
 }
 add_action('wp_enqueue_scripts', 'themeFiles');
 
