@@ -685,7 +685,7 @@ p {
             width: 100%;
         }
 
-        button, input[type="submit"] {
+        input[type="submit"], button {
             @include btn;
             max-width: 12rem;
             cursor: pointer;
