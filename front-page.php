@@ -147,7 +147,7 @@ get_header();
 	</section>
 	<section class="wrapper contact" id="contact">
 		<h3>Contact a consultant</h3>
-		<form action="">
+		<!-- <form action="">
 			<input type="email" name="email" placeholder="Email address*" required>
 			<input type="text" name="hotelname" placeholder="Hotel Name*" required>
 			<input type="text" name="text" placeholder="Full name" required>
@@ -155,7 +155,8 @@ get_header();
 			<input type="number" name="numberofrooms" placeholder="Number of rooms" required>
 			<input type="text" name="location" placeholder="Location" required>
 			<button type="submit">Submit →</button>
-		</form>
+		</form> -->
+		<?php echo do_shortcode('[contact-form-7 id="87c94e7" title="Contact form 1"]'); ?>
 	</section>
 	<section class="work-together">
 		<h2>Let's work together</h2>
