@@ -16,13 +16,25 @@ get_header();
 		<p>Our tailored strategies are proven to help hotels to increase their occupancy, average daily rate, and revenue over time. These are some results of our clients from 2019 to 2022.</p>
 
 		<div class="results__content">
-			<article><span>60</span><span>Hotel partners</span></article>
+			<article>
+				<span>+60</span>
+				<span>Hotel partners</span>
+			</article>
 			<hr>
-			<article><span>8</span><span>Countries</span></article>
+			<article>
+				<span>+8</span>
+				<span>Countries</span>
+			</article>
 			<hr>
-			<article><span>53</span><span>Average Room Revenue increase </span></article>
+			<article>
+				<span>53%</span>
+				<span>Average Room Revenue increase </span>
+			</article>
 			<hr>
-			<article><span>27</span><span>Average Rate increase</span></article>
+			<article>
+				<span>27%</span>
+				<span>Average Rate increase</span>
+			</article>
 		</div>
 
 		<div class="results__stars">
@@ -147,7 +159,15 @@ get_header();
 	</section>
 	<section class="wrapper contact" id="contact">
 		<h3>Contact a consultant</h3>
-		<?php echo do_shortcode('[contact-form-7 id="87c94e7" title="Contact form 1"]'); ?>
+		<form action="">
+			<input type="email" name="email" placeholder="Email address*" required>
+			<input type="text" name="hotelname" placeholder="Hotel Name*" required>
+			<input type="text" name="text" placeholder="Full name" required>
+			<input type="tel" name="phone" placeholder="Phone number" required>
+			<input type="number" name="numberofrooms" placeholder="Number of rooms" required>
+			<input type="text" name="location" placeholder="Location" required>
+			<button type="submit">Submit →</button>
+		</form>
 	</section>
 	<section class="work-together">
 		<h2>Let's work together</h2>
