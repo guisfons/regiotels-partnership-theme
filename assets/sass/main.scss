@@ -260,7 +260,7 @@ p {
 
 .expertise {
     background-color: $almostwhite;
-    padding: 6.3rem 0 9.5rem;
+    padding: 10rem 0;
     
     .wrapper {
         display: flex;
@@ -342,7 +342,7 @@ p {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 10rem;
+    margin-top: 15rem;
 
     @media (max-width: 900px) {
         gap: 3rem;
@@ -421,7 +421,7 @@ p {
 
         background-color: $cyan;
         width: 100%;
-        padding: 0 4.29% 3.1rem 1.40%;
+        padding: 0 4.29% 15rem 1.4%;
 
         @media (max-width: 880px) {
             order: 3;
@@ -692,7 +692,7 @@ p {
     justify-content: flex-end;
     align-items: center;
     gap: 1.6rem;
-    padding: 2rem;
+    padding: 2rem 2rem 10rem;
 
     h2 {
         font-size: 3.5rem;
@@ -725,7 +725,7 @@ p {
         display: flex;
         flex-wrap: wrap;
         gap: 4rem;
-        padding: 4rem 2rem;
+        padding: 10rem 2rem;
     }
 
     h2 {
