@@ -698,12 +698,14 @@ p {
         font-size: 3.5rem;
         color: $white;
         text-align: center;
+        text-shadow: 0 0 2.5rem rgba(0, 0, 0, 1);
     }
 
     p {
         font-size: 1.8rem;
         font-weight: 700;
         color: $white;
+        text-shadow: 0 0 2.5rem rgba(0, 0, 0, 1);
     }
 
     a {

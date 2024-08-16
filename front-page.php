@@ -69,7 +69,7 @@ get_header();
 				</article>
 
 				<article>
-					<figure><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/online_distribution.webp" alt="Digital Marketing"></figure>
+					<figure><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/digital_marketing.webp" alt="Digital Marketing"></figure>
 					<h3>Digital Marketing</h3>
 					<p>Website Management & SEO for Hotels, Multi-platform Marketing Strategy and Online Advertisement</p>
 					<a href="#contact">Get in touch →</a>
