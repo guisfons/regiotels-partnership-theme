@@ -675,6 +675,7 @@ p {
             @include btn;
             max-width: 12rem;
             cursor: pointer;
+            margin-left: auto;
             align-self: flex-end;
         }
     }
